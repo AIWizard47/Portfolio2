@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #212425!important;
+}
+#profile-wrapp{
+    text-align: center;
+}
+h4 p{
+    color: white;
+}
+#profile-img-wrapper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; /* Ensures that the child elements are clipped to the border radius */
+    margin: 0 auto; /* Centers the div horizontally */
+    background-image: url("cssimg/Profile.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#social-media-img{
+    width: 10vw;
+    height: auto;
+}
